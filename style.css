@@ -1,0 +1,133 @@
+body {
+    font-family: 'Arial', sans-serif;
+    /* background-color: #f0f2f5; */
+    /* background-color: #b72868; */
+    height: 100vh;
+    margin: 0;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+/* #quiz-container { */
+    /* background: #fff; */
+    /* border-radius: 8px; */
+    /* width: 300px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+/* } */
+
+#question-number {
+    font-size: 1em;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#question {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+}
+
+.option {
+    background-color: rgb(225, 19, 225);
+    color: #fff;
+    border: none;
+    padding: 10px;
+    margin: 5px 0;
+    font-weight: bolder;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.option:hover{
+    /* background-color: purple; */
+    font-weight: 600;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#timer {
+    font-weight: bold;
+}
+.footer {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    flex-wrap: wrap;
+    gap: 10px; 
+    padding: 10px; 
+}
+
+#timer, #next-btn, #score {
+    flex: 1; 
+    text-align: center; 
+}
+
+#score, #timer {
+    background-color: rgb(11, 0, 128);
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 4px;
+    width: auto; 
+    transition: background-color 0.3s;
+}
+
+#score:hover, #timer:hover {
+    background-color: rgb(19, 39, 118);
+}
+
+#next-btn {
+    background-color: rgb(19, 39, 200);
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-weight: bold;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+@media (max-width: 576px) {
+    .footer {
+        flex-direction: column; 
+        text-align: center; 
+    }
+
+    #timer, #next-btn, #score {
+        flex: none; 
+        margin-bottom: 10px; 
+    }
+}
+
+.hide {
+    display: none;
+}
+
+.option.correct {
+    background-color: green;
+    color: #fff;
+    font-weight: 500;
+}
+
+.option.incorrect {
+    background-color: red;
+    color: #fff;
+    font-weight: 500;
+}
+   
+
+    
