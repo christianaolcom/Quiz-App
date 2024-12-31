@@ -612,7 +612,7 @@ const scoreEl = document.getElementById("score");
 
 let currentQuestion = 0;
 let score = 0;
-let timeLeft = 15 * 60; 
+let timeLeft = 30 * 60; 
 let timer;
 let answerSelected = false;
 

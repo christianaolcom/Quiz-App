@@ -9,15 +9,6 @@ body {
     justify-content: center;
 }
 
-/* #quiz-container { */
-    /* background: #fff; */
-    /* border-radius: 8px; */
-    /* width: 300px;
-    padding: 20px;
-    text-align: center;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
-/* } */
-
 #question-number {
     font-size: 1em;
     margin-bottom: 10px;
